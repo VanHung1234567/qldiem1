@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qlDiem", "qlDiem\qlDiem.csproj", "{B0BBAE58-789F-494A-9A18-3EF908EFF2CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0BBAE58-789F-494A-9A18-3EF908EFF2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BBAE58-789F-494A-9A18-3EF908EFF2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BBAE58-789F-494A-9A18-3EF908EFF2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BBAE58-789F-494A-9A18-3EF908EFF2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1603FE7D-519C-41E0-B150-52D0048533A9}
+	EndGlobalSection
+EndGlobal
