@@ -46,17 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChuyenNganh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChuyenNganh.Designer.cs">
+      <DependentUpon>ChuyenNganh.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="DauDiem.cs">
+    <Compile Include="Diem.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DauDiem.Designer.cs">
-      <DependentUpon>DauDiem.cs</DependentUpon>
+    <Compile Include="Diem.Designer.cs">
+      <DependentUpon>Diem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DkyLopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DkyLopHoc.Designer.cs">
+      <DependentUpon>DkyLopHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HocKy.Designer.cs">
+      <DependentUpon>HocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiDauDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiDauDiem.Designer.cs">
+      <DependentUpon>LoaiDauDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiKhoaHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiKhoaHoc.Designer.cs">
+      <DependentUpon>LoaiKhoaHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LopHoc.Designer.cs">
+      <DependentUpon>LopHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="MonHoc.cs">
       <SubType>Form</SubType>
@@ -80,9 +116,6 @@
     </Compile>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DauDiem.resx">
-      <DependentUpon>DauDiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

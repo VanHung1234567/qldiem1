@@ -44,9 +44,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(44, 146);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 16);
+            this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mật khẩu";
+            this.label1.Text = "Password";
             // 
             // label2
             // 
@@ -54,9 +54,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(41, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.Size = new System.Drawing.Size(40, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Tài khoản";
+            this.label2.Text = "User";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtTK
@@ -81,7 +81,7 @@
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(100, 32);
             this.btnDangNhap.TabIndex = 4;
-            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.Text = "Log in";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
@@ -93,7 +93,7 @@
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 32);
             this.btnThoat.TabIndex = 5;
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Text = "Exit";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
@@ -101,11 +101,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(175, 38);
+            this.label3.Location = new System.Drawing.Point(190, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 25);
+            this.label3.Size = new System.Drawing.Size(77, 25);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Đăng nhập";
+            this.label3.Text = "Log in";
             // 
             // ckbHienThi
             // 
@@ -113,9 +113,9 @@
             this.ckbHienThi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbHienThi.Location = new System.Drawing.Point(157, 178);
             this.ckbHienThi.Name = "ckbHienThi";
-            this.ckbHienThi.Size = new System.Drawing.Size(144, 20);
+            this.ckbHienThi.Size = new System.Drawing.Size(134, 20);
             this.ckbHienThi.TabIndex = 7;
-            this.ckbHienThi.Text = "Hiển thị mật khẩu";
+            this.ckbHienThi.Text = "Show password\r\n";
             this.ckbHienThi.UseVisualStyleBackColor = true;
             this.ckbHienThi.CheckedChanged += new System.EventHandler(this.ckbHienThi_CheckedChanged);
             // 

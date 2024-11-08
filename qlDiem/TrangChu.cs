@@ -45,38 +45,18 @@ namespace qlDiem
             {
                 currentFormChild.Close();
             }
-            lblTittle.Text = "Trang Chủ";
+            lblTittle.Text = "Home";
         }
 
         private void btnSinhVien_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new SinhVien(), "Sinh Viên");
+            OpenChildForm(new SinhVien(), "Student");
 
         }
 
         private void btnMonHoc_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new MonHoc(), "Môn Học");
-        }
-
-        private void btnDauDiem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLopHoc_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDiemSV_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDieuKien_Click(object sender, EventArgs e)
-        {
-
+            OpenChildForm(new MonHoc(), "Subject");
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -104,6 +84,41 @@ namespace qlDiem
             {
                 e.Cancel = true;
             }
+        }
+
+        private void btnHocKy_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new HocKy(), "Semester");
+        }
+
+        private void btnLopHoc_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new LopHoc(), "Classes");
+        }
+
+        private void btnDkyKhoaHoc_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new DkyLopHoc(), "Register for class");
+        }
+
+        private void btnDiem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Diem(), "Scores");
+        }
+
+        private void btnChuyenNganh_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ChuyenNganh(), "Major");
+        }
+
+        private void btnLoaiKhoaHoc_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new LoaiKhoaHoc(), "Courses Categories");
+        }
+
+        private void btnLoaiDauDiem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new LoaiDauDiem(), "Assessment Type");
         }
     }
 }

@@ -183,7 +183,7 @@ namespace qlDiem
             string searchCondition = "";
             if (!string.IsNullOrEmpty(txtStudentID.Text))
             {
-                searchCondition = $" AND StudentID = '{txtStudentID.Text}'";
+                searchCondition = $" AND StudentID LIKE '%{txtStudentID.Text}%'";
             }
             LoadData(searchCondition);
         }
